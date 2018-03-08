@@ -1,0 +1,205 @@
+/* navbar */
+.navku{
+    border-top: 3px solid rgb(249, 95, 95);
+    border-bottom: 1px solid #ff8285;
+    background-color: white;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+.linku{
+    padding:3vh 3.5vh;
+    font-weight:600; font-size:0.9em;
+}
+
+.linku a{
+    text-decoration:none; color:black; 
+}
+
+.linku a:hover{
+    text-decoration: none;
+    color: #B30000;
+}
+/* navbar */
+
+/* carousel */
+.carousel-caption a{
+    text-decoration: none;
+    padding:0.5em 2em;
+}
+
+.carousel-caption{
+    margin-bottom: 2vh;
+}
+
+.carousel-caption a:hover{
+    color: rgb(255, 117, 117);;
+    background-color: white;
+    border:2px solid rgb(255, 117, 117);;   
+}
+/* carousel */
+
+/* products */
+.products{
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+
+.products h2{
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 5vh;
+}
+
+.p-item{
+    margin-bottom: 3vh;
+}
+/* products */
+
+/* about */
+.about{
+    margin-top: 22vh;
+    margin-bottom: 8vh;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.about p{
+    font-size: 1.5em;
+}
+/* about */
+
+/* contact */
+.contact{
+    margin-top: 22vh;
+    margin-bottom: 8vh;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.contact p{
+    font-size: 1.5em;
+}
+
+.contact h2{
+    margin-bottom: 8vh;
+}
+/* contact */
+
+.gambar{
+    height: 30%;
+}
+
+/* garis */
+.garis:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 2px dotted black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.garis1:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 2px dotted white; /* This creates the border. Replace black with whatever color you want. */
+}
+/* garis */
+
+/* button universal */
+.add a{
+    text-decoration: none;
+    padding:0.5em 2em;
+}
+
+.add{
+    margin-bottom: 5vh;
+}
+
+.add a:hover{
+    color: rgb(255, 117, 117);;
+    background-color: white;
+    border:2px solid rgb(255, 117, 117);;   
+}
+
+.button{
+    margin-top: 20px;
+    border:2px solid #fff;   
+    padding:0 2em;
+    color: white;
+    background-color: rgb(255, 117, 117);
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    border-radius:40px;
+}
+/* button universal */
+
+/* footer */
+.footer{
+    padding: 5vh 0vh 0vh 0vh;
+    background-color: #680000;
+    color: #ffffff;
+}
+
+.footer2{
+    padding: 2vh;
+    color: white;
+    font-size: 0.75em;
+    background-color: #460000;
+}
+
+.footer p{
+    font-size: 0.8em;
+}
+
+.footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer a{
+    color: white;
+}
+/* footer */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .gambar{
+        height: 9%;
+    }
+
+    .navbar-brand{
+        font-size: 1.5em;
+    }
+      
+    .carousel-caption{
+        margin-bottom: -3.7vh;
+        font-size: 0.6em;
+    }
+
+    .carousel-indicators{
+        visibility: hidden;
+    }
+    
+    .carousel-caption a{
+        text-decoration: none;
+        padding:0.5em 2em;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
